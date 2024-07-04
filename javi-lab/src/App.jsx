@@ -1,9 +1,11 @@
-import Intro from "./components/intro";
+import Intro from "./components/Intro";
+import Section from "./components/Section";
 
 function App() {
   return (
     <div className="App">
       <Intro />
+      <Section />
     </div>
   );
 }
